@@ -1,0 +1,27 @@
+{
+  "name": "tinyframework",
+  "version": "1.0.0",
+  "description": "Tiny CSS Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckuijjer/tinyframework.git"
+  },
+  "private": "true",
+  "author": "Casper Kuijjer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ckuijjer/tinyframework/issues"
+  },
+  "homepage": "https://github.com/ckuijjer/tinyframework#readme",
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
+    "normalize.css": "^3.0.3"
+  }
+}
